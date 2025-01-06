@@ -13,7 +13,7 @@ function UserForm({ onUserAdd }) {
   return (
     <form onSubmit={handleSumit}>
       <div>
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">Name: </label>
         <input
           id="name"
           value={name}
@@ -21,7 +21,7 @@ function UserForm({ onUserAdd }) {
         />
       </div>
       <div>
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email">Email: </label>
         <input
           id="email"
           value={email}
